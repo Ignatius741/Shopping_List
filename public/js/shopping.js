@@ -121,7 +121,7 @@ function showToast(msg, isError = false) {
 }
 
 function showToast(msg, isError = false) {
-  // Remove existing toast if any
+
   const existingToast = document.querySelector('.custom-toast');
   if (existingToast) existingToast.remove();
   
