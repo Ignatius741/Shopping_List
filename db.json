@@ -1,11 +1,4 @@
 {
-  "users": [
-    {
-      "username": "Ignatius",
-      "password": "$2a$10$Dhgyia0tGGIEOsNDcUxIpuITg1caHcmgpqbEm.wBXRuRZppHKcnDG",
-      "createdAt": "2026-05-06T09:23:35.752Z",
-      "id": 1
-    }
-  ],
+  "users": [],
   "items": []
 }
