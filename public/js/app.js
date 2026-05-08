@@ -1,4 +1,4 @@
-let currentPage = 'list'; // 'list' or 'add'
+let currentPage = 'list';
 
 async function renderDashboard() {
   const root = document.getElementById('root');
@@ -61,7 +61,7 @@ async function renderDashboard() {
   `;
   
   if (currentPage === 'list') {
-    // List page event listeners
+
     document.querySelectorAll('.tab').forEach(btn => {
       btn.addEventListener('click', (e) => {
         currentTab = btn.dataset.tab;
@@ -76,7 +76,7 @@ async function renderDashboard() {
     
     await loadShoppingItems();
   } else {
-    // Add page event listeners
+
     document.getElementById('saveItemBtn').addEventListener('click', async () => {
       const name = document.getElementById('itemNameInput').value.trim();
       const quantity = document.getElementById('itemQuantityInput').value.trim();
@@ -102,8 +102,7 @@ async function renderDashboard() {
       renderDashboard();
     });
   }
-  
-  // Logout button (always present)
+
   document.getElementById('logoutButton').addEventListener('click', async () => {
     await logout();
     renderAuthScreen();
@@ -113,7 +112,6 @@ async function renderDashboard() {
 function renderAuthScreen() {
   const root = document.getElementById('root');
   
-  // Set auth background
   document.body.className = 'auth-bg';
   
   root.innerHTML = `
