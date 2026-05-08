@@ -71,7 +71,6 @@ function renderShoppingList() {
     </div>
   `).join('');
   
-  // Attach event listeners
   document.querySelectorAll('.purchase-btn').forEach(btn => {
     btn.addEventListener('click', async (e) => {
       const id = parseInt(btn.dataset.id);
@@ -121,7 +120,6 @@ function showToast(msg, isError = false) {
   setTimeout(() => toast.remove(), 2500);
 }
 
-// Add this function if not present
 function showToast(msg, isError = false) {
   // Remove existing toast if any
   const existingToast = document.querySelector('.custom-toast');
@@ -149,7 +147,6 @@ function showToast(msg, isError = false) {
   setTimeout(() => toast.remove(), 2500);
 }
 
-// Add animation style
 const style = document.createElement('style');
 style.textContent = `
   @keyframes slideUp {
