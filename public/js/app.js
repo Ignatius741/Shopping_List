@@ -210,5 +210,4 @@ async function init() {
   }
 }
 
-// Start the app
 init();
