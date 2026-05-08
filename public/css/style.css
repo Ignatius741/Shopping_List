@@ -380,7 +380,6 @@ body.auth-bg::before {
   background: #e2e8f0;
 }
 
-/* Auth pages with background */
 .auth-wrapper {
   min-height: 100vh;
   display: flex;
