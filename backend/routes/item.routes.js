@@ -4,7 +4,7 @@ const authMiddleware = require('../middleware/auth.middleware');
 
 const router = express.Router();
 
-router.use(authMiddleware); // All item routes require authentication
+router.use(authMiddleware);
 
 router.get('/', ItemController.getAllItems);
 router.get('/:id', ItemController.getItemById);
