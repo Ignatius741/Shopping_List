@@ -12,7 +12,6 @@ body {
   position: relative;
 }
 
-/* Background image for dashboard */
 body.dashboard-bg {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   position: relative;
@@ -34,7 +33,6 @@ body.dashboard-bg::before {
   z-index: 0;
 }
 
-/* Background image for auth screens */
 body.auth-bg {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   position: relative;
@@ -69,7 +67,6 @@ body.auth-bg::before {
   z-index: 1;
 }
 
-/* Header with cleaner design */
 .header {
   background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
   padding: 20px 24px;
@@ -126,7 +123,6 @@ body.auth-bg::before {
   transform: scale(0.97);
 }
 
-/* Navigation with + button */
 .nav-header {
   padding: 16px 20px 8px 20px;
   background: white;
@@ -164,7 +160,6 @@ body.auth-bg::before {
   box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
 }
 
-/* Tabs */
 .tabs {
   display: flex;
   gap: 8px;
@@ -196,7 +191,6 @@ body.auth-bg::before {
   border: 0.5px solid #e2e8f0;
 }
 
-/* Items list */
 .items-list {
   display: flex;
   flex-direction: column;
@@ -303,7 +297,6 @@ body.auth-bg::before {
   font-size: 0.9rem;
 }
 
-/* Separate Add Item Page */
 .add-item-page {
   padding: 20px;
 }
